@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "916uBCWMKlaYkJeRuUXQC0rManpCFz0hi1FCPeu3xgQ=",
+  "Source": "DiegoServer",
+  "BasePath": "_content/DiegoServer",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

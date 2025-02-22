@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dh743976\\source\\repos\\DiegoServer\\DiegoServer\\DiegoServer.csproj": {}
+    "C:\\Users\\dh743976\\source\\repos\\DiegoServer\\Model\\Model.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dh743976\\source\\repos\\DiegoServer\\DiegoServer\\DiegoServer.csproj": {
+    "C:\\Users\\dh743976\\source\\repos\\DiegoServer\\Model\\Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dh743976\\source\\repos\\DiegoServer\\DiegoServer\\DiegoServer.csproj",
-        "projectName": "DiegoServer",
-        "projectPath": "C:\\Users\\dh743976\\source\\repos\\DiegoServer\\DiegoServer\\DiegoServer.csproj",
+        "projectUniqueName": "C:\\Users\\dh743976\\source\\repos\\DiegoServer\\Model\\Model.csproj",
+        "projectName": "Model",
+        "projectPath": "C:\\Users\\dh743976\\source\\repos\\DiegoServer\\Model\\Model.csproj",
         "packagesPath": "C:\\Users\\dh743976\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dh743976\\source\\repos\\DiegoServer\\DiegoServer\\obj\\",
+        "outputPath": "C:\\Users\\dh743976\\source\\repos\\DiegoServer\\Model\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -60,10 +60,6 @@
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[9.0.2, )"
-            },
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[6.6.2, )"
             }
           },
           "imports": [
@@ -78,9 +74,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

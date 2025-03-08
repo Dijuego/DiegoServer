@@ -26,10 +26,23 @@ namespace DiegoServer.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<City>>> GetCities()
         {
-            return await _context.Cities.ToListAsync();
+            return await _context.Cities.Take(100).ToListAsync();
         }
 
+        // GET: api/Cities/5
+        /*[HttpGet("{id}")]
+        public async Task<ActionResult<City>> GetCity(int id)
+        {
+            var city = await _context.City.FindAsync(id);
 
+            if (country == null)
+            {
+                return NotFound();
+            }
+
+            return country;
+        }
+        */
         // GET: api/Cities/5
         [HttpGet("cityCountry")]
         public async Task<ActionResult<IEnumerable<CityCountry>>> GetCitiesWithCountry()

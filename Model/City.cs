@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
@@ -16,6 +17,10 @@ public partial class City
     [StringLength(50)]
     [Unicode(false)]
     public string Name { get; set; } = null!;
+
+    public decimal Lat { get; set; }
+
+    public decimal Lon { get; set; }
 
     public int Population { get; set; }
 

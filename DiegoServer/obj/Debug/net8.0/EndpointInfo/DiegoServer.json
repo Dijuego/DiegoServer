@@ -89,10 +89,21 @@
         }
       }
     },
-    "/api/Cities/cityCountry": {
+    "/api/Cities/{id}": {
       "get": {
         "tags": [
           "Cities"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
         ],
         "responses": {
           "200": {
@@ -100,34 +111,23 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/CityCountry"
-                  }
+                  "$ref": "#/components/schemas/City"
                 }
               },
               "application/json": {
                 "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/CityCountry"
-                  }
+                  "$ref": "#/components/schemas/City"
                 }
               },
               "text/json": {
                 "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/CityCountry"
-                  }
+                  "$ref": "#/components/schemas/City"
                 }
               }
             }
           }
         }
-      }
-    },
-    "/api/Cities/{id}": {
+      },
       "put": {
         "tags": [
           "Cities"
@@ -186,6 +186,44 @@
         "responses": {
           "200": {
             "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Cities/cityCountry": {
+      "get": {
+        "tags": [
+          "Cities"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CityCountry"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CityCountry"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CityCountry"
+                  }
+                }
+              }
+            }
           }
         }
       }
@@ -593,6 +631,10 @@
             "nullable": true
           },
           "population": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "cityCount": {
             "type": "integer",
             "format": "int32"
           }

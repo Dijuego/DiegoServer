@@ -3,24 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\dh743976\\source\\repos\\DiegoServer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B6FBBFB6-946F-4189-BAC4-B5C58CE001A4}|DiegoServer\\DiegoServer.csproj|c:\\users\\dh743976\\source\\repos\\diegoserver\\diegoserver\\dtos\\countrypop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6FBBFB6-946F-4189-BAC4-B5C58CE001A4}|DiegoServer\\DiegoServer.csproj|solutionrelative:diegoserver\\dtos\\countrypop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B6FBBFB6-946F-4189-BAC4-B5C58CE001A4}|DiegoServer\\DiegoServer.csproj|c:\\users\\dh743976\\source\\repos\\diegoserver\\diegoserver\\controllers\\countriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B6FBBFB6-946F-4189-BAC4-B5C58CE001A4}|DiegoServer\\DiegoServer.csproj|solutionrelative:diegoserver\\controllers\\countriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2CCE91E-D91E-45CE-B09F-5E3F899796DE}|Model\\Model.csproj|c:\\users\\dh743976\\source\\repos\\diegoserver\\model\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2CCE91E-D91E-45CE-B09F-5E3F899796DE}|Model\\Model.csproj|solutionrelative:model\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B6FBBFB6-946F-4189-BAC4-B5C58CE001A4}|DiegoServer\\DiegoServer.csproj|c:\\users\\dh743976\\source\\repos\\diegoserver\\diegoserver\\dtos\\countrypop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6FBBFB6-946F-4189-BAC4-B5C58CE001A4}|DiegoServer\\DiegoServer.csproj|solutionrelative:diegoserver\\dtos\\countrypop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B6FBBFB6-946F-4189-BAC4-B5C58CE001A4}|DiegoServer\\DiegoServer.csproj|c:\\users\\dh743976\\source\\repos\\diegoserver\\diegoserver\\controllers\\citiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B6FBBFB6-946F-4189-BAC4-B5C58CE001A4}|DiegoServer\\DiegoServer.csproj|solutionrelative:diegoserver\\controllers\\citiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2CCE91E-D91E-45CE-B09F-5E3F899796DE}|Model\\Model.csproj|c:\\users\\dh743976\\source\\repos\\diegoserver\\model\\worldcitiessourcecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2CCE91E-D91E-45CE-B09F-5E3F899796DE}|Model\\Model.csproj|solutionrelative:model\\worldcitiessourcecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2CCE91E-D91E-45CE-B09F-5E3F899796DE}|Model\\Model.csproj|c:\\users\\dh743976\\source\\repos\\diegoserver\\model\\migrations\\worldcitiessourcecontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,84 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Country.cs",
-              "DocumentMoniker": "C:\\Users\\dh743976\\source\\repos\\DiegoServer\\Model\\Country.cs",
-              "RelativeDocumentMoniker": "Model\\Country.cs",
-              "ToolTip": "C:\\Users\\dh743976\\source\\repos\\DiegoServer\\Model\\Country.cs",
-              "RelativeToolTip": "Model\\Country.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T01:47:09.683Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "CountryPop.cs",
               "DocumentMoniker": "C:\\Users\\dh743976\\source\\repos\\DiegoServer\\DiegoServer\\Dtos\\CountryPop.cs",
               "RelativeDocumentMoniker": "DiegoServer\\Dtos\\CountryPop.cs",
               "ToolTip": "C:\\Users\\dh743976\\source\\repos\\DiegoServer\\DiegoServer\\Dtos\\CountryPop.cs",
               "RelativeToolTip": "DiegoServer\\Dtos\\CountryPop.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T01:46:36.466Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "WorldCitiesSourceContext.cs",
-              "DocumentMoniker": "C:\\Users\\dh743976\\source\\repos\\DiegoServer\\Model\\WorldCitiesSourceContext.cs",
-              "RelativeDocumentMoniker": "Model\\WorldCitiesSourceContext.cs",
-              "ToolTip": "C:\\Users\\dh743976\\source\\repos\\DiegoServer\\Model\\WorldCitiesSourceContext.cs",
-              "RelativeToolTip": "Model\\WorldCitiesSourceContext.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T01:19:37.017Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "WorldCitiesSourceContextModelSnapshot.cs",
-              "DocumentMoniker": "C:\\Users\\dh743976\\source\\repos\\DiegoServer\\Model\\Migrations\\WorldCitiesSourceContextModelSnapshot.cs",
-              "RelativeDocumentMoniker": "Model\\Migrations\\WorldCitiesSourceContextModelSnapshot.cs",
-              "ToolTip": "C:\\Users\\dh743976\\source\\repos\\DiegoServer\\Model\\Migrations\\WorldCitiesSourceContextModelSnapshot.cs",
-              "RelativeToolTip": "Model\\Migrations\\WorldCitiesSourceContextModelSnapshot.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T01:19:04.446Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CountriesController.cs",
-              "DocumentMoniker": "C:\\Users\\dh743976\\source\\repos\\DiegoServer\\DiegoServer\\Controllers\\CountriesController.cs",
-              "RelativeDocumentMoniker": "DiegoServer\\Controllers\\CountriesController.cs",
-              "ToolTip": "C:\\Users\\dh743976\\source\\repos\\DiegoServer\\DiegoServer\\Controllers\\CountriesController.cs",
-              "RelativeToolTip": "DiegoServer\\Controllers\\CountriesController.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAAAD0AAABCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T01:10:00.17Z",
+              "WhenOpened": "2025-03-15T01:00:24.852Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "WorldCitiesSourceContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\dh743976\\source\\repos\\DiegoServer\\Model\\Migrations\\WorldCitiesSourceContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Model\\Migrations\\WorldCitiesSourceContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\dh743976\\source\\repos\\DiegoServer\\Model\\Migrations\\WorldCitiesSourceContextModelSnapshot.cs",
+              "RelativeToolTip": "Model\\Migrations\\WorldCitiesSourceContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T23:56:26.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "CitiesController.cs",
               "DocumentMoniker": "C:\\Users\\dh743976\\source\\repos\\DiegoServer\\DiegoServer\\Controllers\\CitiesController.cs",
               "RelativeDocumentMoniker": "DiegoServer\\Controllers\\CitiesController.cs",
               "ToolTip": "C:\\Users\\dh743976\\source\\repos\\DiegoServer\\DiegoServer\\Controllers\\CitiesController.cs",
               "RelativeToolTip": "DiegoServer\\Controllers\\CitiesController.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAowCwAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowBIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T00:47:01.702Z",
+              "WhenOpened": "2025-03-14T23:55:19.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CountriesController.cs",
+              "DocumentMoniker": "C:\\Users\\dh743976\\source\\repos\\DiegoServer\\DiegoServer\\Controllers\\CountriesController.cs",
+              "RelativeDocumentMoniker": "DiegoServer\\Controllers\\CountriesController.cs",
+              "ToolTip": "C:\\Users\\dh743976\\source\\repos\\DiegoServer\\DiegoServer\\Controllers\\CountriesController.cs",
+              "RelativeToolTip": "DiegoServer\\Controllers\\CountriesController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAwwDQAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T23:00:43.494Z",
               "EditorCaption": ""
             }
           ]

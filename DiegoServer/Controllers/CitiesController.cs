@@ -44,10 +44,11 @@ namespace DiegoServer.Controllers
         }
         
         // GET: api/Cities/5
-        [HttpGet("cityCountry")]
-        public async Task<ActionResult<IEnumerable<CityCountry>>> GetCitiesWithCountry()
+        [HttpGet("cityCountry/{id}")]
+        public async Task<ActionResult<CityCountry>> GetCitiesWithCountry(int id)
         {
-            return await _context.Cities.Select(city => 
+            CityCountry city = await _context.Cities.Where(city => city.Id == id)
+                .Select(city =>
                 new CityCountry
                 {
                     Id = city.Id,
@@ -55,7 +56,8 @@ namespace DiegoServer.Controllers
                     Population = city.Population,
                     countryName = city.Country.Name
                 }
-            ).ToListAsync();
+            ).SingleAsync();
+            return city;
         }
 
         // PUT: api/Cities/5

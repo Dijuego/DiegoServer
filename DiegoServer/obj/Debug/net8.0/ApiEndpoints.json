@@ -111,14 +111,20 @@
   {
     "ContainingType": "DiegoServer.Controllers.CitiesController",
     "Method": "GetCitiesWithCountry",
-    "RelativePath": "api/Cities/cityCountry",
+    "RelativePath": "api/Cities/cityCountry/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[DiegoServer.Dtos.CityCountry, DiegoServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "DiegoServer.Dtos.CityCountry",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -282,6 +288,22 @@
     "Order": 0,
     "Parameters": [],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DiegoServer.Controllers.SeedController",
+    "Method": "importUsersAsync",
+    "RelativePath": "api/Seed/Users",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
   },
   {
     "ContainingType": "DiegoServer.Controllers.WeatherForecastController",

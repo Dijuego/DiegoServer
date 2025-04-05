@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Identity;
 
 namespace Model
 {
-    public class worldUser : IdentityUser
+    public class WorldUser : IdentityUser
     {
     }
 }

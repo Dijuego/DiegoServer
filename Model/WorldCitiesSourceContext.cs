@@ -6,7 +6,7 @@ using Microsoft.Extensions.Configuration;
 
 namespace Model;
 
-public partial class WorldCitiesSourceContext : IdentityDbContext<worldUser>
+public partial class WorldCitiesSourceContext : IdentityDbContext<WorldUser>
 {
     public WorldCitiesSourceContext()
     {

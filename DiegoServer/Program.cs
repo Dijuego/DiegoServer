@@ -1,5 +1,8 @@
+using DiegoServer;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
 using Model;
 
 WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
@@ -13,8 +16,32 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<WorldCitiesSourceContext>(options => 
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"))
 );
-builder.Services.AddIdentity<worldUser, IdentityRole>()
+builder.Services.AddAuthentication(options =>
+{
+    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+    options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+}).AddJwtBearer(options =>
+{
+    options.TokenValidationParameters = new()
+    {
+        RequireAudience = true,
+        RequireExpirationTime = true,
+        ValidateAudience = true,
+        ValidateIssuer = true,
+        ValidateIssuerSigningKey = true,
+        ValidIssuer = builder.Configuration["JwtSettings:Issuer"],
+        ValidAudience = builder.Configuration["JwtSettings:Audience"],
+        IssuerSigningKey = new SymmetricSecurityKey(
+            System.Text.Encoding.UTF8.GetBytes(builder.Configuration["JwtSettings:SecurityKey"]))
+        ??throw new InvalidOperationException()
+
+    };
+});
+
+builder.Services.AddIdentity<WorldUser, IdentityRole>()
     .AddEntityFrameworkStores<WorldCitiesSourceContext>();
+builder.Services.AddScoped<JwtHandler>();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

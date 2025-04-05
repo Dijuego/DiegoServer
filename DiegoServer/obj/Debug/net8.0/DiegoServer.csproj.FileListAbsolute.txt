@@ -297,3 +297,4 @@ C:\Users\dh743976\source\repos\DiegoServer\DiegoServer\bin\Debug\net8.0\Microsof
 C:\Users\dh743976\source\repos\DiegoServer\DiegoServer\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Json.dll
 C:\Users\dh743976\source\repos\DiegoServer\DiegoServer\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
 C:\Users\dh743976\source\repos\DiegoServer\DiegoServer\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\dh743976\source\repos\DiegoServer\DiegoServer\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

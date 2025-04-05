@@ -17,7 +17,7 @@ namespace DiegoServer.Controllers
     [Route("api/[controller]")]
     [ApiController]
     public class SeedController(WorldCitiesSourceContext context, IHostEnvironment environment,
-        UserManager<worldUser> userManager) : ControllerBase
+        UserManager<WorldUser> userManager) : ControllerBase
     {
         string _pathName = Path.Combine(environment.ContentRootPath, "Data/worldcities.csv");
 
@@ -114,7 +114,7 @@ namespace DiegoServer.Controllers
             // admin@email.com
             // Passw0rd!
 
-            worldUser user = new()
+            WorldUser user = new()
             {
                 UserName = "user",
                 Email = "user@email.com",

@@ -1,5 +1,21 @@
 [
   {
+    "ContainingType": "DiegoServer.Controllers.AdminController",
+    "Method": "LoginAsync",
+    "RelativePath": "api/Admin/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "DiegoServer.Dtos.LoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "DiegoServer.Controllers.CitiesController",
     "Method": "GetCities",
     "RelativePath": "api/Cities",

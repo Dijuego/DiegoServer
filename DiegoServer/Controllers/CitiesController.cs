@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using DiegoServer.Dtos;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -42,8 +43,9 @@ namespace DiegoServer.Controllers
 
             return city;
         }
-        
+
         // GET: api/Cities/5
+        [Authorize]
         [HttpGet("cityCountry/{id}")]
         public async Task<ActionResult<CityCountry>> GetCitiesWithCountry(int id)
         {

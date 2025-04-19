@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using DiegoServer.Dtos;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -29,6 +30,7 @@ namespace DiegoServer.Controllers
         }
 
         // GET: api/Countries/5
+        [Authorize]
         [HttpGet("{id}")]
         public async Task<ActionResult<Country>> GetCountry(int id)
         {
@@ -42,7 +44,7 @@ namespace DiegoServer.Controllers
             return country;
         }
 
-        
+        [Authorize]
         [HttpGet("GetPopulation/{id}")]
         public async Task<ActionResult<CountryPop>> GetCountryPopulation(int id)
         {
@@ -64,6 +66,7 @@ namespace DiegoServer.Controllers
 
         // PUT: api/Countries/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
+        
         [HttpPut("{id}")]
         public async Task<IActionResult> PutCountry(int id, Country country)
         {

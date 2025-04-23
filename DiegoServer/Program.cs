@@ -51,8 +51,10 @@ builder.Services.AddSwaggerGen(c =>
 builder.Services.AddDbContext<WorldCitiesSourceContext>(options => 
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"))
 );
+
 builder.Services.AddIdentity<WorldUser, IdentityRole>()
     .AddEntityFrameworkStores<WorldCitiesSourceContext>();
+
 builder.Services.AddAuthentication(options =>
 {
     options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
@@ -74,7 +76,6 @@ builder.Services.AddAuthentication(options =>
 
     };
 });
-
 
 builder.Services.AddScoped<JwtHandler>();
 

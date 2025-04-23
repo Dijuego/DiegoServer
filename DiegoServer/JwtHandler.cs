@@ -30,5 +30,5 @@ namespace DiegoServer;
         claims.AddRange(from role in await userManager.GetRolesAsync(user) select new Claim(ClaimTypes.Role, role));
         return claims;
     }
-}
+    }
 

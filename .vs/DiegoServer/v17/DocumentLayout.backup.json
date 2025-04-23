@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\dh743976\\source\\repos\\DiegoServer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B6FBBFB6-946F-4189-BAC4-B5C58CE001A4}|DiegoServer\\DiegoServer.csproj|c:\\users\\dh743976\\source\\repos\\diegoserver\\diegoserver\\dtos\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6FBBFB6-946F-4189-BAC4-B5C58CE001A4}|DiegoServer\\DiegoServer.csproj|solutionrelative:diegoserver\\dtos\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B6FBBFB6-946F-4189-BAC4-B5C58CE001A4}|DiegoServer\\DiegoServer.csproj|c:\\users\\dh743976\\source\\repos\\diegoserver\\diegoserver\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B6FBBFB6-946F-4189-BAC4-B5C58CE001A4}|DiegoServer\\DiegoServer.csproj|solutionrelative:diegoserver\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B6FBBFB6-946F-4189-BAC4-B5C58CE001A4}|DiegoServer\\DiegoServer.csproj|c:\\users\\dh743976\\source\\repos\\diegoserver\\diegoserver\\controllers\\countriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6FBBFB6-946F-4189-BAC4-B5C58CE001A4}|DiegoServer\\DiegoServer.csproj|solutionrelative:diegoserver\\controllers\\countriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B6FBBFB6-946F-4189-BAC4-B5C58CE001A4}|DiegoServer\\DiegoServer.csproj|c:\\users\\dh743976\\source\\repos\\diegoserver\\diegoserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6FBBFB6-946F-4189-BAC4-B5C58CE001A4}|DiegoServer\\DiegoServer.csproj|solutionrelative:diegoserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B6FBBFB6-946F-4189-BAC4-B5C58CE001A4}|DiegoServer\\DiegoServer.csproj|c:\\users\\dh743976\\source\\repos\\diegoserver\\diegoserver\\controllers\\citiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6FBBFB6-946F-4189-BAC4-B5C58CE001A4}|DiegoServer\\DiegoServer.csproj|solutionrelative:diegoserver\\controllers\\citiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B6FBBFB6-946F-4189-BAC4-B5C58CE001A4}|DiegoServer\\DiegoServer.csproj|c:\\users\\dh743976\\source\\repos\\diegoserver\\diegoserver\\dtos\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6FBBFB6-946F-4189-BAC4-B5C58CE001A4}|DiegoServer\\DiegoServer.csproj|solutionrelative:diegoserver\\dtos\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6FBBFB6-946F-4189-BAC4-B5C58CE001A4}|DiegoServer\\DiegoServer.csproj|c:\\users\\dh743976\\source\\repos\\diegoserver\\diegoserver\\jwthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6FBBFB6-946F-4189-BAC4-B5C58CE001A4}|DiegoServer\\DiegoServer.csproj|solutionrelative:diegoserver\\jwthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2CCE91E-D91E-45CE-B09F-5E3F899796DE}|Model\\Model.csproj|c:\\users\\dh743976\\source\\repos\\diegoserver\\model\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2CCE91E-D91E-45CE-B09F-5E3F899796DE}|Model\\Model.csproj|solutionrelative:model\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2CCE91E-D91E-45CE-B09F-5E3F899796DE}|Model\\Model.csproj|c:\\users\\dh743976\\source\\repos\\diegoserver\\model\\worldcitiessourcecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2CCE91E-D91E-45CE-B09F-5E3F899796DE}|Model\\Model.csproj|solutionrelative:model\\worldcitiessourcecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,40 +39,79 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "LoginResponse.cs",
-              "DocumentMoniker": "C:\\Users\\dh743976\\source\\repos\\DiegoServer\\DiegoServer\\Dtos\\LoginResponse.cs",
-              "RelativeDocumentMoniker": "DiegoServer\\Dtos\\LoginResponse.cs",
-              "ToolTip": "C:\\Users\\dh743976\\source\\repos\\DiegoServer\\DiegoServer\\Dtos\\LoginResponse.cs",
-              "RelativeToolTip": "DiegoServer\\Dtos\\LoginResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-19T00:14:53.93Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CitiesController.cs",
-              "DocumentMoniker": "C:\\Users\\dh743976\\source\\repos\\DiegoServer\\DiegoServer\\Controllers\\CitiesController.cs",
-              "RelativeDocumentMoniker": "DiegoServer\\Controllers\\CitiesController.cs",
-              "ToolTip": "C:\\Users\\dh743976\\source\\repos\\DiegoServer\\DiegoServer\\Controllers\\CitiesController.cs",
-              "RelativeToolTip": "DiegoServer\\Controllers\\CitiesController.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAADoAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T23:48:47.79Z",
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\dh743976\\source\\repos\\DiegoServer\\DiegoServer\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "DiegoServer\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\dh743976\\source\\repos\\DiegoServer\\DiegoServer\\appsettings.Development.json",
+              "RelativeToolTip": "DiegoServer\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-23T22:27:40.286Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CountriesController.cs",
-              "DocumentMoniker": "C:\\Users\\dh743976\\source\\repos\\DiegoServer\\DiegoServer\\Controllers\\CountriesController.cs",
-              "RelativeDocumentMoniker": "DiegoServer\\Controllers\\CountriesController.cs",
-              "ToolTip": "C:\\Users\\dh743976\\source\\repos\\DiegoServer\\DiegoServer\\Controllers\\CountriesController.cs",
-              "RelativeToolTip": "DiegoServer\\Controllers\\CountriesController.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAwwCkAAAAAAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\dh743976\\source\\repos\\DiegoServer\\DiegoServer\\Program.cs",
+              "RelativeDocumentMoniker": "DiegoServer\\Program.cs",
+              "ToolTip": "C:\\Users\\dh743976\\source\\repos\\DiegoServer\\DiegoServer\\Program.cs",
+              "RelativeToolTip": "DiegoServer\\Program.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAFAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T23:44:01.837Z",
+              "WhenOpened": "2025-04-23T22:08:11.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "C:\\Users\\dh743976\\source\\repos\\DiegoServer\\DiegoServer\\Dtos\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "DiegoServer\\Dtos\\LoginRequest.cs",
+              "ToolTip": "C:\\Users\\dh743976\\source\\repos\\DiegoServer\\DiegoServer\\Dtos\\LoginRequest.cs",
+              "RelativeToolTip": "DiegoServer\\Dtos\\LoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T22:03:39.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "JwtHandler.cs",
+              "DocumentMoniker": "C:\\Users\\dh743976\\source\\repos\\DiegoServer\\DiegoServer\\JwtHandler.cs",
+              "RelativeDocumentMoniker": "DiegoServer\\JwtHandler.cs",
+              "ToolTip": "C:\\Users\\dh743976\\source\\repos\\DiegoServer\\DiegoServer\\JwtHandler.cs",
+              "RelativeToolTip": "DiegoServer\\JwtHandler.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T21:55:04.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\dh743976\\source\\repos\\DiegoServer\\Model\\appsettings.json",
+              "RelativeDocumentMoniker": "Model\\appsettings.json",
+              "ToolTip": "C:\\Users\\dh743976\\source\\repos\\DiegoServer\\Model\\appsettings.json",
+              "RelativeToolTip": "Model\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-23T21:24:19.076Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WorldCitiesSourceContext.cs",
+              "DocumentMoniker": "C:\\Users\\dh743976\\source\\repos\\DiegoServer\\Model\\WorldCitiesSourceContext.cs",
+              "RelativeDocumentMoniker": "Model\\WorldCitiesSourceContext.cs",
+              "ToolTip": "C:\\Users\\dh743976\\source\\repos\\DiegoServer\\Model\\WorldCitiesSourceContext.cs",
+              "RelativeToolTip": "Model\\WorldCitiesSourceContext.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T21:24:12.005Z",
               "EditorCaption": ""
             }
           ]
